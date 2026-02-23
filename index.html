@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODA · modern clothing</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-bar">
+            <div class="logo">MODA<span>.</span></div>
+            <div class="nav-links">
+                <a href="#">shop</a>
+                <a href="#">collection</a>
+                <a href="#">journal</a>
+                <a href="#">about</a>
+            </div>
+            <div class="nav-icons">
+                <i class="far fa-heart"></i>
+                <i class="far fa-user"></i>
+                <i class="far fa-bookmark"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1>wear your <br>attitude.</h1>
+                    <p>Minimal, contemporary clothing for those who move differently. New arrivals drop every week.</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn">shop men</a>
+                        <a href="#" class="btn btn-outline">shop women</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <span class="img-placeholder-txt">MODA // 2026</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORIES SECTION -->
+        <section class="categories">
+            <div class="container">
+                <h2>shop by category</h2>
+                <div class="cat-grid">
+                    <div class="cat-card">
+                        <i class="fas fa-tshirt"></i>
+                        <h3>t-shirts</h3>
+                        <p>essential everyday</p>
+                    </div>
+                    <div class="cat-card">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>outerwear</h3>
+                        <p>jackets & coats</p>
+                    </div>
+                    <div class="cat-card">
+                        <i class="fas fa-shoe-prints"></i>
+                        <h3>footwear</h3>
+                        <p>sneakers, boots</p>
+                    </div>
+                    <div class="cat-card">
+                        <i class="fas fa-hat-cowboy"></i>
+                        <h3>accessories</h3>
+                        <p>caps, bags, more</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED PRODUCTS -->
+        <section class="featured">
+            <div class="container">
+                <h2>fresh arrivals</h2>
+                <div class="product-grid" id="productGrid"></div>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+            <div class="container newsletter-flex">
+                <h2>subscribe to moda</h2>
+                <p>get early access & 10% off your first order</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" id="emailInput" placeholder="your.email@example.com" required>
+                    <button type="submit" class="btn">→</button>
+                </form>
+                <p style="margin-top:1.5rem; font-size:0.9rem; opacity:0.6;" id="formMessage"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">MODA<span>.</span></div>
+                    <p>modern clothing for the conscious.</p>
+                    <div class="social-icons">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-x-twitter"></i>
+                        <i class="fab fa-pinterest"></i>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <a href="#">about</a>
+                    <a href="#">careers</a>
+                    <a href="#">stores</a>
+                </div>
+                <div class="footer-col">
+                    <h4>help</h4>
+                    <a href="#">contact</a>
+                    <a href="#">shipping</a>
+                    <a href="#">returns</a>
+                </div>
+                <div class="footer-col">
+                    <h4>legal</h4>
+                    <a href="#">privacy</a>
+                    <a href="#">terms</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <span>© 2026 MODA. All rights reserved. — modern clothing marketing(yahya)</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
